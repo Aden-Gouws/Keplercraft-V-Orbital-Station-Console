@@ -1,0 +1,7 @@
+C:\Users\Aden Gouws\Documents\PRG281 Project\Keplercraft-V Orbital Station Console\Keplercraft-V Orbital Station Console\bin\Debug\Keplercraft-V Orbital Station Console.exe.config
+C:\Users\Aden Gouws\Documents\PRG281 Project\Keplercraft-V Orbital Station Console\Keplercraft-V Orbital Station Console\bin\Debug\Keplercraft-V Orbital Station Console.exe
+C:\Users\Aden Gouws\Documents\PRG281 Project\Keplercraft-V Orbital Station Console\Keplercraft-V Orbital Station Console\bin\Debug\Keplercraft-V Orbital Station Console.pdb
+C:\Users\Aden Gouws\Documents\PRG281 Project\Keplercraft-V Orbital Station Console\Keplercraft-V Orbital Station Console\obj\Debug\Keplercraft-V Orbital Station Console.csproj.AssemblyReference.cache
+C:\Users\Aden Gouws\Documents\PRG281 Project\Keplercraft-V Orbital Station Console\Keplercraft-V Orbital Station Console\obj\Debug\Keplercraft-V Orbital Station Console.csproj.CoreCompileInputs.cache
+C:\Users\Aden Gouws\Documents\PRG281 Project\Keplercraft-V Orbital Station Console\Keplercraft-V Orbital Station Console\obj\Debug\Keplercraft-V Orbital Station Console.exe
+C:\Users\Aden Gouws\Documents\PRG281 Project\Keplercraft-V Orbital Station Console\Keplercraft-V Orbital Station Console\obj\Debug\Keplercraft-V Orbital Station Console.pdb
