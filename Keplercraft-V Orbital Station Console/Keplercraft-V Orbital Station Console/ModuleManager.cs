@@ -15,9 +15,11 @@ namespace Keplercraft_V_Orbital_Station_Console
         // display all modules in the list
         public void DisplayAllModules()
         {
+
             foreach (var module in _modules)
-            {
-                Console.WriteLine(module.GetStatusReport());  //GetStatusReport() made in StationModule will mutate to the apropriate module type
+                {
+                    IStatusReport statusreport = (IStatusReport)module;
+                    Console.WriteLine(statusreport.StatusReport());  //Displays all the modules in the list and their risk level
             }
         }
 
@@ -94,12 +96,13 @@ namespace Keplercraft_V_Orbital_Station_Console
             }
         }
 
-        // method for running all routines ///// THIS SHOULD BE USED FOR THE THREADING!! /////
-        public void RunAllRoutines()
+        // method for running all risk ///// THIS SHOULD BE USED FOR THE THREADING!! /////
+        public void RunAllRisk()
         {
             foreach (var module in _modules)
             {
-                module.ExecuteRoutine();
+                Imaintainable maintainable = (Imaintainable)module;
+                Console.WriteLine(maintainable.RiskLevel());
             }
         }
 

@@ -20,7 +20,7 @@ namespace Keplercraft_V_Orbital_Station_Console
         public double PowerConsumptionKw
         {
             get => _powerConsumptionKw;
-            set => _powerConsumptionKw = value >= 0 ? value : 0;  // if value >= 0, set it to value, else set it to 0
+            set => _powerConsumptionKw = value >= 0 ? value : throw new ValueBelowZero("Power consuption Cannot be below zero.");  // if value >= 0, set it to value and if value <= 0 throw a exception
             //////// add exception handling and events here!! ////////
             
         }
@@ -34,14 +34,8 @@ namespace Keplercraft_V_Orbital_Station_Console
         }
 
         // abstract method: lets derived classes define specialized execution routines for polymorphism and threading?
-        public abstract void ExecuteRoutine();
+        
         // make background thread that periodically loops through a list of all modules (make list of LifeSupportModule, PowerCoreModule, ResearchLabModule) every hour (but gonna make second for demonstartion purposes)
-
-        // virtual method: provides baseline status report format that derived classes can override
-        public virtual string GetStatusReport()  // all instances of this when we call it in program must be called in a Console.WriteLine cuz it returns a string 
-        {
-            return $"[{ModuleID}] {ModuleName} | Power Draw: {PowerConsumptionKw} kW | Status: {(IsOperational ? "Online" : "Offline")}";
-        }
 
         // virtual method: allows derived classes to update details (name, power consumption, operational status) + unique parameters per module type
         // this serves as a building block for the sub classes to override and mutate, we will only call UpdateModule in Program 
@@ -49,11 +43,15 @@ namespace Keplercraft_V_Orbital_Station_Console
         {
             if (name != null)
             {
+                if (string.IsNullOrEmpty(name)) { throw new ArgumentException("Name cannot be empty.", nameof(name)); }
+                // Exception : checks if the parameter is empty or not. If it's empty it will return the exception message as well as the parameter name.
                 ModuleName = name;
             }
 
             if (power.HasValue)
             {
+                if (power.Value<0) { throw new ArgumentOutOfRangeException("power cannot be negative", nameof(power)); }
+                // Exception : checks if power is below zero. If it's below zero it will return a message as well as the parameter name.
                 PowerConsumptionKw = power.Value;
             }
 
