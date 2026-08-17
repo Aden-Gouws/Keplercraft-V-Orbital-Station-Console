@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Keplercraft_V_Orbital_Station_Console.Keplercraft_V_Orbital_Station_Console;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace Keplercraft_V_Orbital_Station_Console
 {
@@ -17,9 +17,9 @@ namespace Keplercraft_V_Orbital_Station_Console
         {
 
             foreach (var module in _modules)
-                {
-                    IStatusReport statusreport = (IStatusReport)module;
-                    Console.WriteLine(statusreport.StatusReport());  //Displays all the modules in the list and their risk level
+            {
+                IStatusReport statusreport = (IStatusReport)module;
+                Console.WriteLine(statusreport.StatusReport());  //Displays all the modules in the list and their risk level
             }
         }
 
@@ -27,7 +27,26 @@ namespace Keplercraft_V_Orbital_Station_Console
         public void AddModule(StationModule module)
         {
             _modules.Add(module);
+
+            module.ModuleStatusChanged += HandleModuleStatusChanged;
+            module.CriticalConditionReached += HandleCriticalCondition;
         }
+        public void HandleModuleStatusChanged(string message)
+        {
+            Console.WriteLine();
+            Console.WriteLine("[MODULE STATUS EVENT]");
+            Console.WriteLine(message);
+        }
+
+
+        // handles critical system conditions
+        public void HandleCriticalCondition(string message)
+        {
+            Console.WriteLine();
+            Console.WriteLine("[CRITICAL SYSTEM EVENT]");
+            Console.WriteLine(message);
+        }
+
 
         // method for retrieving a module by ID  // this is only used for the UpdateModulePower method, but could be used for other things maybe idk??
         public StationModule GetModuleById(string moduleId)
@@ -117,3 +136,4 @@ namespace Keplercraft_V_Orbital_Station_Console
         }
     }
 }
+

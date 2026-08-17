@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Keplercraft_V_Orbital_Station_Console
 {
-    internal interface IStatusReport
+    public interface IStatusReport
     {
         string StatusReport();
     }

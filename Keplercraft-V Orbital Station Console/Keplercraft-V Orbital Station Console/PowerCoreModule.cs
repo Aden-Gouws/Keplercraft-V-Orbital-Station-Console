@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keplercraft_V_Orbital_Station_Console.Keplercraft_V_Orbital_Station_Console;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Keplercraft_V_Orbital_Station_Console
 {
-    public class PowerCoreModule : StationModule,Imaintainable,IStatusReport
+    public class PowerCoreModule : StationModule, Imaintainable, IStatusReport
     {
         // property with validation!!: ensures reactor temperature and temperature rise per hour is non-negative
         private double _reactorTemperature;  // measured in °C
@@ -67,11 +68,11 @@ namespace Keplercraft_V_Orbital_Station_Console
             }
         }
 
-               //Interface to get status report
-            public string StatusReport()
-            {
-                return $"Core Temp: {ReactorTemperature:F1}°C | Temp Rise Per Hour: {TempRisePerHour:F1}°C/h";
-            }
+        //Interface to get status report
+        public string StatusReport()
+        {
+            return $"Core Temp: {ReactorTemperature:F1}°C | Temp Rise Per Hour: {TempRisePerHour:F1}°C/h";
+        }
         // overriding UpdateDetails to include reactor temperature and temperature rise per hour in the update
         public void UpdateDetails(string name = null, double? power = null, bool? isOperational = null, double? reactorTemperature = null, double? tempRisePerHour = null)
         {
@@ -85,6 +86,17 @@ namespace Keplercraft_V_Orbital_Station_Console
             if (tempRisePerHour.HasValue)
             {
                 TempRisePerHour = tempRisePerHour.Value;
+            }
+        }
+        // checks for a critical reactor condition
+        public void CheckCriticalCondition()
+        {
+            if (RiskLevel() >= 90)
+            {
+                RaiseCriticalCondition(
+                    $"CRITICAL: {ModuleName} reactor temperature is " +
+                    $"{ReactorTemperature:F1}°C."
+                );
             }
         }
     }

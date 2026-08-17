@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Keplercraft_V_Orbital_Station_Console.Keplercraft_V_Orbital_Station_Console;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Keplercraft_V_Orbital_Station_Console
 {
-    public class ResearchLabModule : StationModule,Imaintainable,IStatusReport
+    public class ResearchLabModule : StationModule, Imaintainable, IStatusReport
     {
         // properties with validation!!: ensures active experiments, data per hour and total data collected are non-negative
         private int _activeExperiments;
@@ -95,5 +96,17 @@ namespace Keplercraft_V_Orbital_Station_Console
                 DataPerHour = dataPerHour.Value;
             }
         }
+        // checks for a critical research lab condition
+        public void CheckCriticalCondition()
+        {
+            if (RiskLevel() >= 90)
+            {
+                RaiseCriticalCondition(
+                    $"CRITICAL: {ModuleName} data storage has reached " +
+                    $"{DataCollectedGb:F1} GB."
+                );
+            }
+        }
     }
 }
+
