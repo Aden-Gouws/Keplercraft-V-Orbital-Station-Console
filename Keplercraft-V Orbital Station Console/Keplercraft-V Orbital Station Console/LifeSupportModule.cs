@@ -84,6 +84,13 @@ namespace Keplercraft_V_Orbital_Station_Console
             return $"O2 Level: {OxygenLevel:F1}% | O2 Drain Per Hour: {OxygenDrainPerHour:F1}%/h";
         }
 
+        public void CheckCriticalCondition()
+        {
+            if (RiskLevel() >= 90)
+                RaiseCriticalCondition($"CRITICAL: {ModuleName} oxygen level at {OxygenLevel:F1}%.");
+        }
+
+
         // overriding UpdateDetails to include oxygen level and oxygen drain per hour in the update
         public void UpdateDetails(string name = null, double? power = null, bool? isOperational = null, double? oxygenLevel = null, double? oxygenDrainPerHour = null)
         {

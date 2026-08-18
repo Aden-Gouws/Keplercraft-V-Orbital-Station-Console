@@ -1,4 +1,4 @@
-﻿using Keplercraft_V_Orbital_Station_Console.Keplercraft_V_Orbital_Station_Console;
+﻿using Keplercraft_V_Orbital_Station_Console;
 using System;
 using System.Collections.Generic;
 using System.Linq;

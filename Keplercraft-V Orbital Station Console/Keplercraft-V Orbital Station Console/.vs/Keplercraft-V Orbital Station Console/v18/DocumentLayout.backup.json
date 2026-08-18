@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|c:\\users\\user\\onedrive - belgiumcampus.ac.za\\prg281\\project\\keplercraft-v-orbital-station-console\\keplercraft-v orbital station console\\keplercraft-v orbital station console\\stationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|solutionrelative:stationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|c:\\users\\user\\onedrive - belgiumcampus.ac.za\\prg281\\project\\keplercraft-v-orbital-station-console\\keplercraft-v orbital station console\\keplercraft-v orbital station console\\lifesupportmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|solutionrelative:lifesupportmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|c:\\users\\user\\onedrive - belgiumcampus.ac.za\\prg281\\project\\keplercraft-v-orbital-station-console\\keplercraft-v orbital station console\\keplercraft-v orbital station console\\researchlabmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|solutionrelative:researchlabmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|c:\\users\\user\\onedrive - belgiumcampus.ac.za\\prg281\\project\\keplercraft-v-orbital-station-console\\keplercraft-v orbital station console\\keplercraft-v orbital station console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|c:\\users\\user\\onedrive - belgiumcampus.ac.za\\prg281\\project\\keplercraft-v-orbital-station-console\\keplercraft-v orbital station console\\keplercraft-v orbital station console\\powercoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|solutionrelative:powercoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|c:\\users\\user\\onedrive - belgiumcampus.ac.za\\prg281\\project\\keplercraft-v-orbital-station-console\\keplercraft-v orbital station console\\keplercraft-v orbital station console\\modulethreads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|solutionrelative:modulethreads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|c:\\users\\user\\onedrive - belgiumcampus.ac.za\\prg281\\project\\keplercraft-v-orbital-station-console\\keplercraft-v orbital station console\\keplercraft-v orbital station console\\modulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AEE79D-820F-4277-8865-862304AAB581}|Keplercraft-V Orbital Station Console.csproj|solutionrelative:modulemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResearchLabModule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\ResearchLabModule.cs",
+              "RelativeDocumentMoniker": "ResearchLabModule.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\ResearchLabModule.cs",
+              "RelativeToolTip": "ResearchLabModule.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:12:59.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModuleManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\ModuleManager.cs",
+              "RelativeDocumentMoniker": "ModuleManager.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\ModuleManager.cs",
+              "RelativeToolTip": "ModuleManager.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAYwAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:12:11.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PowerCoreModule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\PowerCoreModule.cs",
+              "RelativeDocumentMoniker": "PowerCoreModule.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\PowerCoreModule.cs",
+              "RelativeToolTip": "PowerCoreModule.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:09:48.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StationModule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\StationModule.cs",
+              "RelativeDocumentMoniker": "StationModule.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\StationModule.cs",
+              "RelativeToolTip": "StationModule.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:05:20.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T12:30:00.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModuleThreads.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\ModuleThreads.cs",
+              "RelativeDocumentMoniker": "ModuleThreads.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\ModuleThreads.cs",
+              "RelativeToolTip": "ModuleThreads.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T12:14:49.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LifeSupportModule.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\LifeSupportModule.cs",
+              "RelativeDocumentMoniker": "LifeSupportModule.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - belgiumcampus.ac.za\\PRG281\\Project\\Keplercraft-V-Orbital-Station-Console\\Keplercraft-V Orbital Station Console\\Keplercraft-V Orbital Station Console\\LifeSupportModule.cs",
+              "RelativeToolTip": "LifeSupportModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T12:06:40.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

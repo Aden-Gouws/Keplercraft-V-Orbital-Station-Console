@@ -1,4 +1,4 @@
-﻿using Keplercraft_V_Orbital_Station_Console.Keplercraft_V_Orbital_Station_Console;
+﻿using Keplercraft_V_Orbital_Station_Console;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,7 +38,7 @@ namespace Keplercraft_V_Orbital_Station_Console
         {
             ActiveExperiments = amountExperiments;
             DataPerHour = dataPerHour;
-            DataCollectedGb = 0.0;  // no data collection at start, will add up with treading with ExecuteRoutine
+            DataCollectedGb = 0.0;  
         }
 
         // overriding abstract method from StationModule

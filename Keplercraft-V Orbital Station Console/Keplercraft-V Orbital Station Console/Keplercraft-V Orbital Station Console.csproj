@@ -47,6 +47,7 @@
     <Compile Include="IStatusReport.cs" />
     <Compile Include="LifeSupportModule.cs" />
     <Compile Include="ModuleManager.cs" />
+    <Compile Include="ModuleThreads.cs" />
     <Compile Include="PowerCoreModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,4 @@
-﻿using Keplercraft_V_Orbital_Station_Console.Keplercraft_V_Orbital_Station_Console;
+﻿using Keplercraft_V_Orbital_Station_Console;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,7 +48,7 @@ namespace Keplercraft_V_Orbital_Station_Console
         }
 
 
-        // method for retrieving a module by ID  // this is only used for the UpdateModulePower method, but could be used for other things maybe idk??
+        // method for retrieving a module by ID  
         public StationModule GetModuleById(string moduleId)
         {
             foreach (var module in _modules)
@@ -115,7 +115,7 @@ namespace Keplercraft_V_Orbital_Station_Console
             }
         }
 
-        // method for running all risk ///// THIS SHOULD BE USED FOR THE THREADING!! /////
+        // method for running all risk 
         public void RunAllRisk()
         {
             foreach (var module in _modules)
@@ -125,7 +125,7 @@ namespace Keplercraft_V_Orbital_Station_Console
             }
         }
 
-        // generates randomized starting data but dont know if this works yet ///// TEST WHEN INTERFACE IS DONE /////
+        
         public void SeedRandomModules()
         {
             Random rng = new Random();

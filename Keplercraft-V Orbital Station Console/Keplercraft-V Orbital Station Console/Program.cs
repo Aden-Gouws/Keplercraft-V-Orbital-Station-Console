@@ -22,6 +22,30 @@ namespace Keplercraft_V_Orbital_Station_Console
                 );
 
             manager.AddModule(lifeSupport);
+            ModuleThreads.StartOxygenDrain(lifeSupport);
+
+            PowerCoreModule core =
+                new PowerCoreModule(
+                    "PC-1",
+                    "Main Reactor",
+                    120,
+                    50,
+                    1.5
+                );
+
+            manager.AddModule(core);
+            ModuleThreads.StartReactorHeating(core);
+
+            ResearchLabModule lab =
+                new ResearchLabModule(
+                    "RL-1",
+                    "Bio Lab",
+                    30,
+                    2,
+                    1.0
+                );
+            manager.AddModule(lab);
+            ModuleThreads.StartDataCollection(lab);
 
 
             Console.WriteLine("Testing Module Status Event:");
