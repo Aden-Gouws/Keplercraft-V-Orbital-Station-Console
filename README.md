@@ -1,6 +1,6 @@
-# 🚀 Keplercraft V Orbital Station Console
+# Keplercraft V Orbital Station Console
 
-## 📖 Overview
+## Overview
 Keplercraft V Orbital Station Console is a simulation system designed to manage critical orbital station modules:
 - **Life Support** (oxygen monitoring and drain)
 - **Power Core** (reactor temperature control)
@@ -10,7 +10,7 @@ The system demonstrates **object‑oriented programming concepts** including abs
 
 ---
 
-## ✨ Features
+## Features
 - Create and manage station modules (Life Support, Power Core, Research Lab).
 - Track operational status, power consumption, and risk levels.
 - Raise **critical condition events** when thresholds are exceeded.
@@ -23,7 +23,7 @@ The system demonstrates **object‑oriented programming concepts** including abs
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **C# (.NET)**  
 - **Object‑Oriented Programming** (abstraction, inheritance, polymorphism)  
 - **Interfaces** (`Imaintainable`, `IStatusReport`)  
@@ -32,7 +32,7 @@ The system demonstrates **object‑oriented programming concepts** including abs
 
 ---
 
-## ⚡ Threading and Multithreading
+## Threading and Multithreading
 
 This project uses **threading** to simulate real‑time behavior of station modules. Each module runs its own background task:
 
@@ -47,11 +47,11 @@ This is an example of **multithreading**:
 - The main program remains responsive while background tasks continue.  
 - Critical events are raised independently by each thread when thresholds are reached.  
 
-👉 In short: threading makes the simulation realistic by running module routines in parallel, rather than sequentially.
+In short: threading makes the simulation realistic by running module routines in parallel, rather than sequentially.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 project-root/
 │── Program.cs
 │── StationModule.cs
@@ -68,7 +68,7 @@ project-root/
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 1. Clone or download the project.  
 2. Open in **Visual Studio**.  
 3. Build the solution to restore dependencies.  
@@ -76,7 +76,7 @@ project-root/
 
 ---
 
-## 📊 Usage Example
+## Usage Example
 When you run the program:
 - Life Support oxygen drains over time.  
 - Power Core reactor temperature rises.  
@@ -89,7 +89,7 @@ CRITICAL: Primary Life Support oxygen level at 19.5%.
 
 ---
 
-## 👥 Contributors
+## Group Members
 - Amonique van Zyl 604294
 - Aden Gouws 604061
 - Letlhogonolo Kganyaetsile Phale 603862
