@@ -48,10 +48,6 @@ namespace Keplercraft_V_Orbital_Station_Console
         }
         public void CaculateMaintenance() //Determines the level of risk of failure based on the reactor temperature and outputs a maintenance report to the console
         {
-
-
-            Console.WriteLine("Maitenance Report:");
-            Console.WriteLine();
             Console.WriteLine($"Data Collection: {DataCollectedGb}\nRisk of Failure : {RiskLevel()}");
             if (RiskLevel() < 50)
             {

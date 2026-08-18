@@ -336,6 +336,8 @@ namespace Keplercraft_V_Orbital_Station_Console
                                     var mm = manager.GetModuleById(mid);
                                     if (mm is Imaintainable im)
                                     {
+                                        Console.WriteLine("Maitenance Report:");
+                                        Console.WriteLine();
                                         im.CaculateMaintenance();
                                     }
                                 }
@@ -346,6 +348,8 @@ namespace Keplercraft_V_Orbital_Station_Console
 
                                 if (mm is Imaintainable im)
                                 {
+                                    Console.WriteLine("Maitenance Report:");
+                                    Console.WriteLine();
                                     im.CaculateMaintenance();
                                 }
                                 else
