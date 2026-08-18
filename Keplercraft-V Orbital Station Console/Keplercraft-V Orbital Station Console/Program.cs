@@ -77,7 +77,7 @@ namespace Keplercraft_V_Orbital_Station_Console
                             Console.WriteLine("--- Registered Modules ---");
                             if (known.Count() == 0)
                             {
-                                Console.WriteLine("(no modules registered)");
+                                Console.WriteLine("(No modules registered)");
                             }
 
                             foreach (var mid in known)
@@ -106,7 +106,7 @@ namespace Keplercraft_V_Orbital_Station_Console
 
                             if (show == null)
                             {
-                                Console.WriteLine("Not found.");
+                                Console.WriteLine("Module not found");
                             }
                             else
                             {
@@ -200,16 +200,6 @@ namespace Keplercraft_V_Orbital_Station_Console
                             Console.Clear();
                             Console.Write("Module ID to update: ");
                             var updId = Console.ReadLine();
-                            Console.Write("New name (leave empty to skip): ");
-                            var newName = Console.ReadLine();
-                            Console.Write("New power (leave empty to skip): ");
-                            var newPowerTxt = Console.ReadLine();
-                            double? newPower = null;
-
-                            if (double.TryParse(newPowerTxt, out var np))
-                            {
-                                newPower = np;
-                            }
 
                             var target = manager.GetModuleById(updId);
 
@@ -222,6 +212,17 @@ namespace Keplercraft_V_Orbital_Station_Console
                             }
                             else
                             {
+                                Console.Write("New name (leave empty to skip): ");
+                                var newName = Console.ReadLine();
+                                Console.Write("New power (leave empty to skip): ");
+                                var newPowerTxt = Console.ReadLine();
+                                double? newPower = null;
+
+                                if (double.TryParse(newPowerTxt, out var np))
+                                {
+                                    newPower = np;
+                                }
+
                                 double? o2lvl = null, o2dr = null, reactorTemp = null, tempRise = null, dataPerHour = null;
                                 int? activeExp = null;
 
@@ -318,6 +319,12 @@ namespace Keplercraft_V_Orbital_Station_Console
 
                         case MenuOption.RunRiskCheck:
                             Console.Clear();
+
+                            if (known.Count() == 0)
+                            {
+                                Console.WriteLine("(No modules registered)");
+                            }
+
                             manager.RunAllRisk();
                             Console.WriteLine();
                             Console.WriteLine("Press any button to continue..");
@@ -331,6 +338,11 @@ namespace Keplercraft_V_Orbital_Station_Console
 
                             if (string.Equals(targetId, "all", StringComparison.OrdinalIgnoreCase))  // check if text matches regardless of case
                             {
+                                if (known.Count() == 0)
+                                {
+                                    Console.WriteLine("(No modules registered)");
+                                }
+
                                 foreach (var mid in known)
                                 {
                                     var mm = manager.GetModuleById(mid);
@@ -371,7 +383,7 @@ namespace Keplercraft_V_Orbital_Station_Console
 
                             if (modtog == null)
                             {
-                                Console.WriteLine("Not found.");
+                                Console.WriteLine("Module not found.");
                                 Console.WriteLine();
                                 Console.WriteLine("Press any button to continue..");
                                 Console.ReadKey();
