@@ -121,7 +121,7 @@ namespace Keplercraft_V_Orbital_Station_Console
             foreach (var module in _modules)
             {
                 Imaintainable maintainable = (Imaintainable)module;
-                Console.WriteLine(maintainable.RiskLevel());
+                Console.WriteLine($"{module.ModuleID}: {maintainable.RiskLevel()}%");///////////////////////////////////////////////
             }
         }
 
