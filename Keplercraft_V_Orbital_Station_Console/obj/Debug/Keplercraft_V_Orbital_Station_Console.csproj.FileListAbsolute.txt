@@ -1,0 +1,7 @@
+C:\Users\Kganya\OneDrive - belgiumcampus.ac.za\Documents\PRG281\Project\Keplercraft_V_Orbital_Station_Console\Keplercraft_V_Orbital_Station_Console\obj\Debug\Keplercraft_V_Orbital_Station_Console.csproj.AssemblyReference.cache
+C:\Users\Kganya\OneDrive - belgiumcampus.ac.za\Documents\PRG281\Project\Keplercraft_V_Orbital_Station_Console\Keplercraft_V_Orbital_Station_Console\obj\Debug\Keplercraft_V_Orbital_Station_Console.csproj.CoreCompileInputs.cache
+C:\Users\Kganya\OneDrive - belgiumcampus.ac.za\Documents\PRG281\Project\Keplercraft_V_Orbital_Station_Console\Keplercraft_V_Orbital_Station_Console\bin\Debug\Keplercraft_V_Orbital_Station_Console.exe.config
+C:\Users\Kganya\OneDrive - belgiumcampus.ac.za\Documents\PRG281\Project\Keplercraft_V_Orbital_Station_Console\Keplercraft_V_Orbital_Station_Console\bin\Debug\Keplercraft_V_Orbital_Station_Console.exe
+C:\Users\Kganya\OneDrive - belgiumcampus.ac.za\Documents\PRG281\Project\Keplercraft_V_Orbital_Station_Console\Keplercraft_V_Orbital_Station_Console\bin\Debug\Keplercraft_V_Orbital_Station_Console.pdb
+C:\Users\Kganya\OneDrive - belgiumcampus.ac.za\Documents\PRG281\Project\Keplercraft_V_Orbital_Station_Console\Keplercraft_V_Orbital_Station_Console\obj\Debug\Keplercraft_V_Orbital_Station_Console.exe
+C:\Users\Kganya\OneDrive - belgiumcampus.ac.za\Documents\PRG281\Project\Keplercraft_V_Orbital_Station_Console\Keplercraft_V_Orbital_Station_Console\obj\Debug\Keplercraft_V_Orbital_Station_Console.pdb
